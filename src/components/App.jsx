@@ -11,13 +11,14 @@ export default function App() {
 
   //this is the place where the heavy lifting would happen: the actual login, 
   // and the initialisation of data .
-
-    setLoggedIn(!loggedIn); 
+//if (LogIn(...) {
+    setLoggedIn(true); 
+//
   } 
 
   function handleClick() {
-    console.log("getLogState in callback()");
-    setLoggedIn(!loggedIn); 
+    console.log("logout in callback()");
+    setLoggedIn(false); 
   } 
 
   return (
